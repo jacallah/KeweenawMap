@@ -10,7 +10,7 @@
       "properties": {
         "PARK_ID": 960,
         "FACILITYID": 28014,
-        "NAME": "Park 1",
+        "NAME": "Hike 1",
         "NAME_FR": "Planchodrome Bearbrook",
         "ADDRESS": "8720 Russell Road",
         "ADDRESS_FR": "8720, chemin Russell",
@@ -24,7 +24,7 @@
         "CREATED_DA": null,
         "FACILITY": "Neighbourhood : smaller size facility to service population of 10,000 or less",
         "FACILITY_F": "De voisinage : petite installation assurant des services à 10 000 résidents ou moins.",
-        "DESCRIPTIO": "Fun Park",
+        "DESCRIPTIO": "Tough Hike",
         "DESCRIPT_1": "Surface d'asphalte plane, 5 modules",
         "PICTURE_LI": null,
         "PICTURE_DE": null,
@@ -32,7 +32,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-88.5894, 47.2211]
+        "coordinates": [-88.5374, 47.2201]
       }
     },
     {
@@ -54,7 +54,7 @@
         "CREATED_DA": null,
         "FACILITY": "Community: mid size facility to service population of 40,000 plus",
         "FACILITY_F": "Communautaire : installation de taille moyenne assurant des services à 40 000 résidents ou plus.",
-        "DESCRIPTIO": "Awesome Park",
+        "DESCRIPTIO": "Mild Hike",
         "DESCRIPT_1": "Surface d'asphalte plane, 10 modules, programmes et camps de planche à roulettes en été géré par la Ville",
         "PICTURE_LI": null,
         "PICTURE_DE": null,
@@ -62,7 +62,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-88.5004, 47.2771]
+        "coordinates": [-88.5014, 47.2251]
       }
     },
     {
@@ -84,7 +84,7 @@
         "CREATED_DA": null,
         "FACILITY": "Community : mid size facility to service population of 40,000 plus",
         "FACILITY_F": "Communautaire : installation de taille moyenne assurant des services à 40 000 résidents ou plus.",
-        "DESCRIPTIO": "Crazy Park",
+        "DESCRIPTIO": "Easy Hike",
         "DESCRIPT_1": "Bol de béton, 7 000 pi2",
         "PICTURE_LI": null,
         "PICTURE_DE": null,
@@ -92,7 +92,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-88.5894, 47.0211]
+        "coordinates": [-88.4834, 47.0251]
       }
     }
   ]

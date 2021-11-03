@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import * as parkDate from "./data/parks.json";
+import * as hikeDate from "./data/hiking.json";
+import bench from "./bench.jpg";
+import hike from "./hike.png"
 
 export default function App() {
   const [viewport, setViewport] = useState({
-    latitude: 45.4211,
-    longitude: -75.6903,
+    latitude: 47.1211,
+    longitude: -88.5694,
     width: "100vw",
     height: "100vh",
     zoom: 10
@@ -47,11 +50,27 @@ export default function App() {
                 setSelectedPark(park);
               }}
             >
-              <img src="bench.png" alt="ICON"/>
+              <img src={bench} alt="CYAP"/>
             </button>
           </Marker>
         ))}
-
+        {hikeDate.features.map(park => (
+          <Marker
+            key={park.properties.PARK_ID}
+            latitude={park.geometry.coordinates[1]}
+            longitude={park.geometry.coordinates[0]}
+          >
+            <button
+              className="marker-btn"
+              onClick={e => {
+                e.preventDefault();
+                setSelectedPark(park);
+              }}
+            >
+              <img src={hike} alt="CYAP"/>
+            </button>
+          </Marker>
+        ))}
         {selectedPark ? (
           <Popup
             latitude={selectedPark.geometry.coordinates[1]}
