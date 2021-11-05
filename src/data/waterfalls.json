@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 1219,
+        "FACILITYID": 28001,
+        "NAME": "Douglass Houghton Falls",
+        "ADDRESS": "Calumet Twp, MI 49913",
+        "FACILITY_T": "other",
+        "ACCESSIBLE": "no/non",
+        "OPEN": null,
+        "NOTES": "Outdoor",
+        "MODIFIED_D": "2018/01/18",
+        "CREATED_DA": null,
+        "DESCRIPTIO": "Waterfall, Light Hike",
+        "DESCRIPT_1": "At 110 feet, Douglass Houghton falls boasts the tallest waterfall in Michigan.  Currently, however, the original trail is closed to the public due to erosion.",
+        "PICTURE_LI": null,
+        "PICTURE_DE": null,
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -88.42719967016512, 47.20715277362706 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 1219,
+        "FACILITYID": 28001,
+        "NAME": "Montreal falls",
+        "ADDRESS": "Copper Harbor, MI 49918",
+        "FACILITY_T": "other",
+        "ACCESSIBLE": "no/non",
+        "OPEN": null,
+        "NOTES": "Outdoor",
+        "MODIFIED_D": "2018/01/18",
+        "CREATED_DA": null,
+        "DESCRIPTIO": "Long Hike, Waterfall, Scenic",
+        "DESCRIPT_1": "Located at the end of Montreal river, where it empties into Lake Superior, these two waterfalls are packed with a difficult hike with a beautiful view at the end of the trail.",
+        "PICTURE_LI": null,
+        "PICTURE_DE": null,
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -87.84216309306235, 47.39273167808336 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 1219,
+        "FACILITYID": 28001,
+        "NAME": "Hungarian Falls",
+        "ADDRESS": "Hubbell, MI 49913",
+        "FACILITY_T": "other",
+        "ACCESSIBLE": "no/non",
+        "OPEN": null,
+        "NOTES": "Outdoor",
+        "MODIFIED_D": "2018/01/18",
+        "CREATED_DA": null,
+        "DESCRIPTIO": "Short Hike, Waterfalls",
+        "DESCRIPT_1": "Located near Hubbell, these waterfalls are easily accessible to the public through an easy hiking trail and provide beautiful scenery.  Consisting of three major waterfalls, the total height of the falls is about 90 feet.",
+        "PICTURE_LI": null,
+        "PICTURE_DE": null,
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -88.44166672512944, 47.17034921466215 ]
+      }
+    }
+  ]
+}
