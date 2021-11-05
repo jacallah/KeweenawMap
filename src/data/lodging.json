@@ -1,0 +1,190 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 1219,
+        "FACILITYID": 28001,
+        "NAME": "City of Houghton RV park",
+        "NAME_FR": "",
+        "ADDRESS": "1100 W Lakeshore Dr, Houghton, MI 49931",
+        "ADDRESS_FR": "",
+        "FACILITY_T": "other",
+        "FACILITY_1": "autre",
+        "ACCESSCTRL": "no/non",
+        "ACCESSIBLE": "no/non",
+        "OPEN": null,
+        "NOTES": "Outdoor",
+        "MODIFIED_D": "2018/01/18",
+        "CREATED_DA": null,
+        "FACILITY": "",
+        "FACILITY_F": "",
+        "DESCRIPTIO": "RV Park",
+        "DESCRIPT_1": "Located next to the Portage Canal, this RV park provides 25 spots to park your RV and has access to amenities, such as water and sewer connections, satellite TV, and fire rings and barbecue grills at most parking sites.",
+        "PICTURE_LI": null,
+        "PICTURE_DE": null,
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -88.59443805265329, 47.1215085348018 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 1219,
+        "FACILITYID": 28001,
+        "NAME": "Hancock Recreation Area",
+        "NAME_FR": "",
+        "ADDRESS": "2000 Jasberg St, Hancock, MI 49930",
+        "ADDRESS_FR": "",
+        "FACILITY_T": "other",
+        "FACILITY_1": "autre",
+        "ACCESSCTRL": "no/non",
+        "ACCESSIBLE": "no/non",
+        "OPEN": null,
+        "NOTES": "Outdoor",
+        "MODIFIED_D": "2018/01/18",
+        "CREATED_DA": null,
+        "FACILITY": "",
+        "FACILITY_F": "",
+        "DESCRIPTIO": "Beach, Playground, Campground",
+        "DESCRIPT_1": "Located next to Portage Lake, this recreation area provides 72 camp sites, 14 of which being tent sites.  This recreation area provides many activities such as swimming, fishing, volleyball, a playground for children, and more.",
+        "PICTURE_LI": null,
+        "PICTURE_DE": null,
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -88.62130305878638, 47.13260397281489 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 1219,
+        "FACILITYID": 28001,
+        "NAME": "Ramada Hotel",
+        "NAME_FR": "",
+        "ADDRESS": "99 Navy St, Hancock, MI 49930",
+        "ADDRESS_FR": "",
+        "FACILITY_T": "other",
+        "FACILITY_1": "autre",
+        "ACCESSCTRL": "no/non",
+        "ACCESSIBLE": "no/non",
+        "OPEN": null,
+        "NOTES": "Outdoor",
+        "MODIFIED_D": "2018/01/18",
+        "CREATED_DA": null,
+        "FACILITY": "",
+        "FACILITY_F": "",
+        "DESCRIPTIO": "Hotel",
+        "DESCRIPT_1": "Near the Portage Canal lift bridge, this 2-star hotel provides basic amenities such as free Wi-Fi and breakfast, an indoor pool, a sauna and a hot tub, and more.  This hotel also has a bar and a restaurant.",
+        "PICTURE_LI": null,
+        "PICTURE_DE": null,
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -88.5764192301395, 47.125956688098356 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 1219,
+        "FACILITYID": 28001,
+        "NAME": "Quality Inn",
+        "NAME_FR": "",
+        "ADDRESS": "215 Shelden Ave, Houghton, MI 49931",
+        "ADDRESS_FR": "",
+        "FACILITY_T": "other",
+        "FACILITY_1": "autre",
+        "ACCESSCTRL": "no/non",
+        "ACCESSIBLE": "no/non",
+        "OPEN": null,
+        "NOTES": "Outdoor",
+        "MODIFIED_D": "2018/01/18",
+        "CREATED_DA": null,
+        "FACILITY": "",
+        "FACILITY_F": "",
+        "DESCRIPTIO": "Hotel",
+        "DESCRIPT_1": "Located in Houghton, Quality Inn provides basic amenities such as free Wi-Fi and breakfast, an indoor swimming pool, a hot tub and a sauna, a fitness room, and more.  Pets are welcome for an additional fee.",
+        "PICTURE_LI": null,
+        "PICTURE_DE": null,
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -88.5713633568258, 47.12164180901482 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 1219,
+        "FACILITYID": 28001,
+        "NAME": "Mariner North Resort",
+        "NAME_FR": "",
+        "ADDRESS": "245 Gratiot St, Copper Harbor, MI 49918",
+        "ADDRESS_FR": "",
+        "FACILITY_T": "other",
+        "FACILITY_1": "autre",
+        "ACCESSCTRL": "no/non",
+        "ACCESSIBLE": "no/non",
+        "OPEN": null,
+        "NOTES": "Outdoor",
+        "MODIFIED_D": "2018/01/18",
+        "CREATED_DA": null,
+        "FACILITY": "",
+        "FACILITY_F": "",
+        "DESCRIPTIO": "Resort",
+        "DESCRIPT_1": "Located in Copper Harbor, this inn provides cabin-like rooms with free Wi-Fi and parking, as well as a restaurant, bar, and a game room.",
+        "PICTURE_LI": null,
+        "PICTURE_DE": null,
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -87.8883598016206, 47.46841479733446 ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 1219,
+        "FACILITYID": 28001,
+        "NAME": "Holiday Inn",
+        "NAME_FR": "",
+        "ADDRESS": "1110 Century Way, Houghton, MI 49931",
+        "ADDRESS_FR": "",
+        "FACILITY_T": "other",
+        "FACILITY_1": "autre",
+        "ACCESSCTRL": "no/non",
+        "ACCESSIBLE": "no/non",
+        "OPEN": null,
+        "NOTES": "Outdoor",
+        "MODIFIED_D": "2018/01/18",
+        "CREATED_DA": null,
+        "FACILITY": "",
+        "FACILITY_F": "",
+        "DESCRIPTIO": "Hotel",
+        "DESCRIPT_1": "Located at the shopping area near Houghton, this 2-star hotel provides amenities such as free Wi-Fi, a hot breakfast buffet, an indoor pool and gym, and a sauna.",
+        "PICTURE_LI": null,
+        "PICTURE_DE": null,
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -88.59083085280174, 47.114081902962354 ]
+      }
+    }
+  ]
+}

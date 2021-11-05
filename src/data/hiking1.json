@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      
+    
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 1219,
+        "FACILITYID": 28001,
+        "NAME": "Bluffs",
+        "NAME_FR": "",
+        "ADDRESS": "",
+        "ADDRESS_FR": "",
+        "FACILITY_T": "other",
+        "FACILITY_1": "autre",
+        "ACCESSCTRL": "no/non",
+        "ACCESSIBLE": "no/non",
+        "OPEN": null,
+        "NOTES": "Outdoor",
+        "MODIFIED_D": "2018/01/18",
+        "CREATED_DA": null,
+        "FACILITY": "Community: mid size facility to service population of 40,000 plus",
+        "FACILITY_F": "Communautaire : installation de taille moyenne assurant des services à 40 000 résidents ou plus.",
+        "DESCRIPTIO": "Mild Hike",
+        "DESCRIPT_1": "Near Lac La Belle, these bluffs overlook Lake Superior and the surrounding forest. This is a short hike with a round trip of just over 2 miles. The trail includes some challenging sections that beginners should watch out for. The short hike is worth it for the view!",
+        "\",": null,
+        "PICTURE_LI": null,
+        "PICTURE_DE": null,
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -87.91238079013762, 47.39716111304597 ]
+      }
+    }
+  ]
+}
