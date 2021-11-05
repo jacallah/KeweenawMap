@@ -19,7 +19,7 @@ import lodging from "./lodging.png";
 import poi from "./exclamation.png";
 import parks from "./parks.png";
 import ski from "./ski-snowboard.png";
-import waterfall from "./waterfall";
+import waterfall from "./waterfall.png";
 
 export default function App() {
   const [viewport, setViewport] = useState({
