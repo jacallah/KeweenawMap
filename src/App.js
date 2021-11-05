@@ -17,7 +17,6 @@ import beach from "./beach.png";
 import biking from "./biking.png";
 import lodging from "./lodging.png";
 import poi from "./exclamation.png";
-import parks from "./parks.png";
 import ski from "./ski-snowboard.png";
 import waterfall from "./waterfall.png";
 
@@ -209,7 +208,7 @@ export default function App() {
                 setSelectedPark(park);
               }}
             >
-              <img src={parks} alt="CYAP" />
+              <img src={bench} alt="CYAP" />
             </button>
           </Marker>
         ))}
