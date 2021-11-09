@@ -8,42 +8,12 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 960,
-        "FACILITYID": 28014,
-        "NAME": "Park 1",
-        "NAME_FR": "Planchodrome Bearbrook",
-        "ADDRESS": "8720 Russell Road",
-        "ADDRESS_FR": "8720, chemin Russell",
-        "FACILITY_T": "flat",
-        "FACILITY_1": "plat",
-        "ACCESSCTRL": "no/non",
-        "ACCESSIBLE": "no/non",
-        "OPEN": null,
-        "NOTES": "Outdoor",
-        "MODIFIED_D": "2018/01/18",
-        "CREATED_DA": null,
-        "FACILITY": "Neighbourhood : smaller size facility to service population of 10,000 or less",
-        "FACILITY_F": "De voisinage : petite installation assurant des services à 10 000 résidents ou moins.",
-        "DESCRIPTIO": "Fun Park",
-        "DESCRIPT_1": "Surface d'asphalte plane, 5 modules",
-        "PICTURE_LI": null,
-        "PICTURE_DE": null,
-        "PICTURE__1": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-88.5894, 47.2211]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "PARK_ID": 1219,
         "FACILITYID": 28001,
-        "NAME": "Hike 2",
-        "NAME_FR": "Planchodrome Bob-MacQuarrie (Parc SK8 Extreme)",
-        "ADDRESS": "1490 Youville Drive",
-        "ADDRESS_FR": "1490, promenade Youville",
+        "NAME": "Montezuma Park",
+        "NAME_FR": "",
+        "ADDRESS": "208 Montezuma St, Hancock, MI 49930",
+        "ADDRESS_FR": "",
         "FACILITY_T": "other",
         "FACILITY_1": "autre",
         "ACCESSCTRL": "no/non",
@@ -52,47 +22,107 @@
         "NOTES": "Outdoor",
         "MODIFIED_D": "2018/01/18",
         "CREATED_DA": null,
-        "FACILITY": "Community: mid size facility to service population of 40,000 plus",
-        "FACILITY_F": "Communautaire : installation de taille moyenne assurant des services à 40 000 résidents ou plus.",
-        "DESCRIPTIO": "Awesome Park",
-        "DESCRIPT_1": "Surface d'asphalte plane, 10 modules, programmes et camps de planche à roulettes en été géré par la Ville",
+        "FACILITY": "",
+        "FACILITY_F": "",
+        "DESCRIPTIO": "Park",
+        "DESCRIPT_1": "Located in Hancock, this quiet public park is great for going on walks with your family, friends, and pets.",
         "PICTURE_LI": null,
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-88.5004, 47.2771]
+        "coordinates": [ -88.58858365672691, 47.1266544506348 ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1157,
-        "FACILITYID": 28002,
-        "NAME": "Hike 3",
-        "NAME_FR": "Planchodrome Walter-Baker",
-        "ADDRESS": "100 Charlie Rogers Place",
-        "ADDRESS_FR": "100, place Charlie Rogers",
-        "FACILITY_T": "bowl",
-        "FACILITY_1": "bol",
+        "PARK_ID": 1219,
+        "FACILITYID": 28001,
+        "NAME": "Nara Nature Trails",
+        "NAME_FR": "",
+        "ADDRESS": "47375 US-41, Houghton, MI 49931",
+        "ADDRESS_FR": "",
+        "FACILITY_T": "other",
+        "FACILITY_1": "autre",
         "ACCESSCTRL": "no/non",
         "ACCESSIBLE": "no/non",
         "OPEN": null,
         "NOTES": "Outdoor",
         "MODIFIED_D": "2018/01/18",
         "CREATED_DA": null,
-        "FACILITY": "Community : mid size facility to service population of 40,000 plus",
-        "FACILITY_F": "Communautaire : installation de taille moyenne assurant des services à 40 000 résidents ou plus.",
-        "DESCRIPTIO": "Crazy Park",
-        "DESCRIPT_1": "Bol de béton, 7 000 pi2",
+        "FACILITY": "",
+        "FACILITY_F": "",
+        "DESCRIPTIO": "Easy Hiking Trails, Sledding Hill",
+        "DESCRIPT_1": "Connected to the Tech Trails, this 100 acre nature trail provides access to fishing spots, as well as launches for kayaks and canoes.  During the winter, you can sled down the sledding hills near the trails.",
         "PICTURE_LI": null,
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-88.5894, 47.0211]
+        "coordinates": [ -88.52556586131418, 47.104184301526736 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 1219,
+        "FACILITYID": 28001,
+        "NAME": "East Houghton Waterfront Park",
+        "NAME_FR": "",
+        "ADDRESS": "1220-1298 E Lakeshore Dr, Houghton, MI 49931",
+        "ADDRESS_FR": "",
+        "FACILITY_T": "other",
+        "FACILITY_1": "autre",
+        "ACCESSCTRL": "no/non",
+        "ACCESSIBLE": "no/non",
+        "OPEN": null,
+        "NOTES": "Outdoor",
+        "MODIFIED_D": "2018/01/18",
+        "CREATED_DA": null,
+        "FACILITY": "",
+        "FACILITY_F": "",
+        "DESCRIPTIO": "Park, Skate Park",
+        "DESCRIPT_1": "Located in Houghton, this waterfront park provides many recreational activities, such as a skate park, picnicking areas, and a launch for kayaks and canoes.",
+        "PICTURE_LI": null,
+        "PICTURE_DE": null,
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -88.55649928593037, 47.123777964392666 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 1219,
+        "FACILITYID": 28001,
+        "NAME": "Chutes and ladders",
+        "NAME_FR": "",
+        "ADDRESS": "1100 W Lakeshore Dr, Houghton, MI 49931",
+        "ADDRESS_FR": "",
+        "FACILITY_T": "other",
+        "FACILITY_1": "autre",
+        "ACCESSCTRL": "no/non",
+        "ACCESSIBLE": "no/non",
+        "OPEN": null,
+        "NOTES": "Outdoor",
+        "MODIFIED_D": "2018/01/18",
+        "CREATED_DA": null,
+        "FACILITY": "",
+        "FACILITY_F": "",
+        "DESCRIPTIO": "Park, Playground",
+        "DESCRIPT_1": "Located in Houghton, Chutes and Ladders provides a beach volleyball court and a large play area for children.",
+        "PICTURE_LI": null,
+        "PICTURE_DE": null,
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -88.59724105363368, 47.121928286641065 ]
       }
     }
   ]

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
-import * as parkDate from "./data/parks1.json";
-import * as hikeDate from "./data/hiking1.json";
+import * as parkDate from "./data/parks.json";
+import * as hikeDate from "./data/hiking.json";
 import * as barDate from "./data/bar-resturant.json";
 import * as beachesDate from "./data/beaches.json";
 import * as bikingDate from "./data/Biking.json";
@@ -253,6 +253,7 @@ export default function App() {
           <Popup
             latitude={selectedPark.geometry.coordinates[1]}
             longitude={selectedPark.geometry.coordinates[0]}
+            closeOnClick={false}
             onClose={() => {
               setSelectedPark(null);
             }}
@@ -260,6 +261,8 @@ export default function App() {
             <div>
               <h2>{selectedPark.properties.NAME}</h2>
               <p>{selectedPark.properties.DESCRIPTIO}</p>
+              <p>{selectedPark.properties.ADDRESS}</p>
+              <a href={"https://google.com/maps/dir//"+selectedPark.properties.ADDRESS}>Directions</a>
             </div>
           </Popup>
         ) : null}
