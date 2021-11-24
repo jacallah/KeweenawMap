@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
+import { EasybaseProvider } from 'easybase-react';
+import ebconfig from "./ebconfig";
 import * as parkDate from "./data/parks.json";
 import * as hikeDate from "./data/hiking.json";
 import * as barDate from "./data/bar-resturant.json";
@@ -27,6 +29,7 @@ export default function App() {
     width: "100vw",
     height: "100vh",
     zoom: 10,
+    minZoom: 9
   });
   const [selectedPark, setSelectedPark] = useState(null);
 
@@ -44,6 +47,7 @@ export default function App() {
   }, []);
 
   return (
+    <EasybaseProvider ebconfig={ebconfig}>
     <div>
       <ReactMapGL
         {...viewport}
@@ -268,5 +272,6 @@ export default function App() {
         ) : null}
       </ReactMapGL>
     </div>
+    </EasybaseProvider>
   );
 }
