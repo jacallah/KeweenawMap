@@ -8,7 +8,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 23,
         "FACILITYID": 28001,
         "NAME": "Dredge",
         "ADDRESS": "Hancock - Lake Linden Trail, Hancock, MI 49930",
@@ -32,7 +32,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 24,
         "FACILITYID": 28001,
         "NAME": "Redridge Dam",
         "ADDRESS": " ",
@@ -80,7 +80,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 25,
         "FACILITYID": 28001,
         "NAME": "Keweenaw rocket range",
         "ADDRESS": "Rocket Range Trail, Copper Harbor, MI 49918",
@@ -104,7 +104,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 26,
         "FACILITYID": 28001,
         "NAME": "Quincy Mine Stamp Mill",
         "ADDRESS": "Hancock - Lake Linden Trail, Hancock, MI 49930",
@@ -128,7 +128,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 27,
         "FACILITYID": 28001,
         "NAME": "Freda Ruins",
         "ADDRESS": "Atlantic Mine, MI 49905",
@@ -152,7 +152,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 28,
         "FACILITYID": 28001,
         "NAME": "Jampot",
         "ADDRESS": "6500 M-26, Eagle Harbor, MI 49950",
@@ -176,7 +176,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 29,
         "FACILITYID": 28001,
         "NAME": "Devils Washtub",
         "ADDRESS": "M-26, Mohawk, MI 49950",

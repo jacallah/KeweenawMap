@@ -8,7 +8,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 19,
         "FACILITYID": 28001,
         "NAME": "Montezuma Park",
         "NAME_FR": "",
@@ -38,7 +38,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 20,
         "FACILITYID": 28001,
         "NAME": "Nara Nature Trails",
         "NAME_FR": "",
@@ -68,7 +68,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 21,
         "FACILITYID": 28001,
         "NAME": "East Houghton Waterfront Park",
         "NAME_FR": "",
@@ -98,7 +98,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 22,
         "FACILITYID": 28001,
         "NAME": "Chutes and ladders",
         "NAME_FR": "",

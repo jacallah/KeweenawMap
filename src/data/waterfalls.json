@@ -8,7 +8,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 33,
         "FACILITYID": 28001,
         "NAME": "Douglass Houghton Falls",
         "ADDRESS": "Calumet Twp, MI 49913",
@@ -32,7 +32,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 34,
         "FACILITYID": 28001,
         "NAME": "Montreal falls",
         "ADDRESS": "Copper Harbor, MI 49918",
@@ -56,7 +56,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 35,
         "FACILITYID": 28001,
         "NAME": "Hungarian Falls",
         "ADDRESS": "Hubbell, MI 49913",

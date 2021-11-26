@@ -8,7 +8,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 960,
+        "PARK_ID": 30,
         "FACILITYID": 28014,
         "NAME": "Mont Ripley",
         "NAME_FR": "Planchodrome Bearbrook",
@@ -39,7 +39,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 31,
         "FACILITYID": 28001,
         "NAME": "Mount Bohemia",
         "NAME_FR": " ",
@@ -69,7 +69,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 32,
         "FACILITYID": 28001,
         "NAME": "Voodoo Mountain",
         "NAME_FR": " ",

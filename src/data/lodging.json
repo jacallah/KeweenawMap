@@ -8,7 +8,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 13,
         "FACILITYID": 28001,
         "NAME": "City of Houghton RV park",
         "NAME_FR": "",
@@ -38,7 +38,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 14,
         "FACILITYID": 28001,
         "NAME": "Hancock Recreation Area",
         "NAME_FR": "",
@@ -68,7 +68,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 15,
         "FACILITYID": 28001,
         "NAME": "Ramada Hotel",
         "NAME_FR": "",
@@ -98,7 +98,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 16,
         "FACILITYID": 28001,
         "NAME": "Quality Inn",
         "NAME_FR": "",
@@ -128,7 +128,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 17,
         "FACILITYID": 28001,
         "NAME": "Mariner North Resort",
         "NAME_FR": "",
@@ -159,7 +159,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 18,
         "FACILITYID": 28001,
         "NAME": "Holiday Inn",
         "NAME_FR": "",

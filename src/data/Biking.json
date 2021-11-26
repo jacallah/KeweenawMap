@@ -9,7 +9,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 10,
         "FACILITYID": 28001,
         "NAME": "Brockway Mountain",
         "NAME_FR": "",
@@ -40,7 +40,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 11,
         "FACILITYID": 28001,
         "NAME": "Michigan Tech Trails",
         "NAME_FR": "",

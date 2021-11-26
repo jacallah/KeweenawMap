@@ -8,7 +8,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 1,
         "FACILITYID": 28001,
         "NAME": "Downtowner Lounge",
         "ADDRESS": "100 Shelden Ave, Houghton, MI 49931",
@@ -32,7 +32,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 2,
         "FACILITYID": 28001,
         "NAME": "Dog/Armondos",
         "ADDRESS": "517 Shelden Ave, Houghton, MI 49931",
@@ -56,7 +56,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 3,
         "FACILITYID": 28001,
         "NAME": "The Gay Bar",
         "ADDRESS": "925 Lake St, Lake Linden, MI 49945",
@@ -80,7 +80,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 4,
         "FACILITYID": 28001,
         "NAME": "Maple Leaf",
         "ADDRESS": " ",
@@ -104,7 +104,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 5,
         "FACILITYID": 28001,
         "NAME": "Keewenaw Brewing Company",
         "ADDRESS": "408 Shelden Ave, Houghton, MI 49931",
@@ -128,7 +128,7 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 1219,
+        "PARK_ID": 6,
         "FACILITYID": 28001,
         "NAME": "Fitzgeralds",
         "ADDRESS": "5033 Front St, Eagle River, MI 49950",
