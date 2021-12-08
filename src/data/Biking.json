@@ -25,10 +25,10 @@
         "CREATED_DA": null,
         "FACILITY": "",
         "FACILITY_F": "",
-        "DESCRIPTIO": "Mountain Biking, Scenic Overlook",
-        "DESCRIPT_1": "The Brockway trails, located near Copper Harbor, provide stunning views of the area surrounding Brockway Mountain, such as Lake Superior.  The biking trails range from beginner to advanced trails, allowing for people of all skills to experience Copper Harbor.",
+
+        "DESCRIPTIO": "The Brockway trails, located near Copper Harbor, provide stunning views of the area surrounding Brockway Mountain, such as Lake Superior.  The biking trails range from beginner to advanced trails, allowing for people of all skills to experience Copper Harbor.",
         "\",": null,
-        "PICTURE_LI": null,
+        "PICTURE_LI": "https://www.mlive.com/resizer/qJcUCyF6cVZabQFdpPdqsdPMDYU=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/D3ZH4ADDZ5BXPGDE5URNRUJ7V4.jpg",
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
@@ -56,9 +56,9 @@
         "CREATED_DA": null,
         "FACILITY": "",
         "FACILITY_F": "",
-        "DESCRIPTIO": "Mountain Biking Trails, Hiking Trails, Cross Country Skiing Trails",
-        "DESCRIPT_1": "\"Located near and around Michigan Technological University, these trails provide tons of interesting views targeted towards people of all ages and hiking/biking abilities.",
-        "PICTURE_LI": null,
+
+        "DESCRIPTIO": "\"Located near and around Michigan Technological University, these trails provide tons of interesting views targeted towards people of all ages and hiking/biking abilities.",
+        "PICTURE_LI": "https://www.keweenaw.info/wp-content/uploads/glm-member-db/images/large/member_info_453-mtu_bike2019122903120941_1576704736.jpg",
         "PICTURE_DE": null,
         "PICTURE__1": null
       },

@@ -18,9 +18,9 @@
         "NOTES": "Outdoor",
         "MODIFIED_D": "2018/01/18",
         "CREATED_DA": null,
-        "DESCRIPTIO": "Bar/Resturant",
-        "DESCRIPT_1": "The Downtowner Lounge is a bar and resturant with an outstanding outside deck",
-        "PICTURE_LI": null,
+
+        "DESCRIPTIO": "The Downtowner Lounge is a bar and resturant with an outstanding outside deck",
+        "PICTURE_LI": "https://s3-media0.fl.yelpcdn.com/bphoto/7-3zNh4a-UuWVJ5YoAhZNg/l.jpg",
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
@@ -42,9 +42,9 @@
         "NOTES": "Outdoor",
         "MODIFIED_D": "2018/01/18",
         "CREATED_DA": null,
-        "DESCRIPTIO": "Bar/Resturant",
-        "DESCRIPT_1": "Located in Houghton, this restaurant provides breakfast, lunch, and dinner of American cuisines and also serves alcoholic beverages.",
-        "PICTURE_LI": null,
+
+        "DESCRIPTIO": "Located in Houghton, this restaurant provides breakfast, lunch, and dinner of American cuisines and also serves alcoholic beverages.",
+        "PICTURE_LI": "https://media-cdn.tripadvisor.com/media/photo-s/1c/6c/2f/fe/ah-houghton.jpg",
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
@@ -66,9 +66,9 @@
         "NOTES": "Outdoor",
         "MODIFIED_D": "2018/01/18",
         "CREATED_DA": null,
-        "DESCRIPTIO": "Bar/Resturant",
-        "DESCRIPT_1": "Located in Gay, this bar serves bar-style food from hot dogs, to pizza, to fish, and more.",
-        "PICTURE_LI": null,
+
+        "DESCRIPTIO": "Located in Gay, this bar serves bar-style food from hot dogs, to pizza, to fish, and more.",
+        "PICTURE_LI": "https://thegaybar.com/wp-content/uploads/2014/09/BuildingOpen.jpg",
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
@@ -90,9 +90,9 @@
         "NOTES": "Outdoor",
         "MODIFIED_D": "2018/01/18",
         "CREATED_DA": null,
-        "DESCRIPTIO": "Bar",
-        "DESCRIPT_1": "Located in Lake Lindon, this American Legion Post welcomes snowmobilers and ATVers and serves alcoholic beverages.",
-        "PICTURE_LI": null,
+
+        "DESCRIPTIO": "Located in Lake Lindon, this American Legion Post welcomes snowmobilers and ATVers and serves alcoholic beverages.",
+        "PICTURE_LI": "https://www.legionpost291.com/s/cc_images/cache_17046534.jpg?t=1499537486",
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
@@ -114,9 +114,9 @@
         "NOTES": "Outdoor",
         "MODIFIED_D": "2018/01/18",
         "CREATED_DA": null,
-        "DESCRIPTIO": "Bar",
-        "DESCRIPT_1": "Located in Houghton, the KBC offers freshly brewed beer and features a taproom with two bars.",
-        "PICTURE_LI": null,
+
+        "DESCRIPTIO": "Located in Houghton, the KBC offers freshly brewed beer and features a taproom with two bars.",
+        "PICTURE_LI": "https://res.cloudinary.com/miles-extranet-dev/image/upload/ar_16:9,c_fill,w_1000,g_face,q_50/Michigan/account_photos/9368/37aa080ac20663bdc627849c2fae37be_keweenawbrewingco2.jpg",
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
@@ -138,9 +138,9 @@
         "NOTES": "Outdoor",
         "MODIFIED_D": "2018/01/18",
         "CREATED_DA": null,
-        "DESCRIPTIO": "Resturant",
-        "DESCRIPT_1": "Located in Eagle River, this restaurant and hotel overlooks the shore of Lake Superior, giving beautiful sights.  The restaurant offers a large selection of alcoholic beverages as well as local fish options.",
-        "PICTURE_LI": null,
+
+        "DESCRIPTIO": "Located in Eagle River, this restaurant and hotel overlooks the shore of Lake Superior, giving beautiful sights.  The restaurant offers a large selection of alcoholic beverages as well as local fish options.",
+        "PICTURE_LI": "https://www.secondwavemedia.com/upper-peninsula/galleries/Features/20131002/5.jpg",
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
