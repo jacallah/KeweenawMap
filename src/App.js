@@ -21,6 +21,8 @@ import lodging from "./lodging.png";
 import poi from "./exclamation.png";
 import ski from "./ski-snowboard.png";
 import waterfall from "./waterfall.png";
+import "./App.css";
+
 
 export default function App() {
   const [viewport, setViewport] = useState({
@@ -254,18 +256,19 @@ export default function App() {
         ))}
 
         {selectedPark ? (
-          <Popup
+          <Popup class="pop"
             latitude={selectedPark.geometry.coordinates[1]}
             longitude={selectedPark.geometry.coordinates[0]}
-            closeOnClick={false}
+            closeOnClick={true}
             onClose={() => {
               setSelectedPark(null);
             }}
           >
-            <div>
+            <div class="locationDescript">
               <h2>{selectedPark.properties.NAME}</h2>
               <p>{selectedPark.properties.DESCRIPTIO}</p>
               <p>{selectedPark.properties.ADDRESS}</p>
+              <p><img src={selectedPark.properties.PICTURE_LI} title={selectedPark.properties.NAME} alt={selectedPark.properties.NAME} height={200} width={400}></img></p>
               <a href={"https://google.com/maps/dir//"+selectedPark.properties.ADDRESS}>Directions</a>
             </div>
           </Popup>
