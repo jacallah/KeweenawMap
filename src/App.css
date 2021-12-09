@@ -36,6 +36,14 @@
   right: 0;
   border: 6px solid #f7feff;
 }
+.container {
+  position: relative;
+}
+
+.menu {
+  z-index: 9;
+  top: 200px;
+}
 
 @keyframes App-logo-spin {
   from {
