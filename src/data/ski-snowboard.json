@@ -24,10 +24,10 @@
         "CREATED_DA": null,
         "FACILITY": "Neighbourhood : smaller size facility to service population of 10,000 or less",
         "FACILITY_F": "De voisinage : petite installation assurant des services à 10 000 résidents ou moins.",
-        "DESCRIPTIO": "Ski Hill",
-        "DESCRIPT_1": "Located in Houghton country. With being the oldest ski area in Michigan, Mont Ripley is a popular site for both Michigan Technological University students and the public.  With a 440’ vertical drop, this ski area provides several trails that are fun for the whole family.",
+
+        "DESCRIPTIO": "Located in Houghton country. With being the oldest ski area in Michigan, Mont Ripley is a popular site for both Michigan Technological University students and the public.  With a 440’ vertical drop, this ski area provides several trails that are fun for the whole family.",
         "\",": null,
-        "PICTURE_LI": null,
+        "PICTURE_LI": "https://miskireport.com/wp-content/uploads/2015/10/mont-ripley-ski_3_590_300_50_all_5_s_c1_center_center_0_0_1.jpg",
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
@@ -55,9 +55,9 @@
         "CREATED_DA": null,
         "FACILITY": "Community: mid size facility to service population of 40,000 plus",
         "FACILITY_F": "Communautaire : installation de taille moyenne assurant des services à 40 000 résidents ou plus.",
-        "DESCRIPTIO": "Ski Hill",
-        "DESCRIPT_1": "Located next to Lac La Belle, Mount Bohemia boasts a 900’ vertical drop, making it the highest vertical drop in Michigan.  Beware though, Mount Bohemia is not groomed and therefore is not recommended for beginners.",
-        "PICTURE_LI": null,
+
+        "DESCRIPTIO": "Located next to Lac La Belle, Mount Bohemia boasts a 900’ vertical drop, making it the highest vertical drop in Michigan.  Beware though, Mount Bohemia is not groomed and therefore is not recommended for beginners.",
+        "PICTURE_LI": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Looking_over_Lac_La_Belle.jpg",
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
@@ -85,9 +85,9 @@
         "CREATED_DA": null,
         "FACILITY": "Community: mid size facility to service population of 40,000 plus",
         "FACILITY_F": "Communautaire : installation de taille moyenne assurant des services à 40 000 résidents ou plus.",
-        "DESCRIPTIO": "Ski Hill",
-        "DESCRIPT_1": "Located south of Copper Harbor, Voodoo Mountain provides a vertical drop of roughly 700’.  This relatively new ski area provides the first ever snowcat skiing in Michigan.",
-        "PICTURE_LI": null,
+
+        "DESCRIPTIO": "Located south of Copper Harbor, Voodoo Mountain provides a vertical drop of roughly 700’.  This relatively new ski area provides the first ever snowcat skiing in Michigan.",
+        "PICTURE_LI": "https://www.mtbohemia.com/wp-content/uploads/2016/01/voodoo-mountian-group-open-run-sun-460x307.jpg",
         "PICTURE_DE": null,
         "PICTURE__1": null
       },

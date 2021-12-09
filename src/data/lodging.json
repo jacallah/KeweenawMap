@@ -24,9 +24,9 @@
         "CREATED_DA": null,
         "FACILITY": "",
         "FACILITY_F": "",
-        "DESCRIPTIO": "RV Park",
-        "DESCRIPT_1": "Located next to the Portage Canal, this RV park provides 25 spots to park your RV and has access to amenities, such as water and sewer connections, satellite TV, and fire rings and barbecue grills at most parking sites.",
-        "PICTURE_LI": null,
+
+        "DESCRIPTIO": "Located next to the Portage Canal, this RV park provides 25 spots to park your RV and has access to amenities, such as water and sewer connections, satellite TV, and fire rings and barbecue grills at most parking sites.",
+        "PICTURE_LI": "https://www.cityofhoughton.com/wp-content/uploads/2020/01/MAX_0011-scaled.jpg",
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
@@ -54,9 +54,9 @@
         "CREATED_DA": null,
         "FACILITY": "",
         "FACILITY_F": "",
-        "DESCRIPTIO": "Beach, Playground, Campground",
-        "DESCRIPT_1": "Located next to Portage Lake, this recreation area provides 72 camp sites, 14 of which being tent sites.  This recreation area provides many activities such as swimming, fishing, volleyball, a playground for children, and more.",
-        "PICTURE_LI": null,
+
+        "DESCRIPTIO": "Located next to Portage Lake, this recreation area provides 72 camp sites, 14 of which being tent sites.  This recreation area provides many activities such as swimming, fishing, volleyball, a playground for children, and more.",
+        "PICTURE_LI": "https://images.squarespace-cdn.com/content/v1/5cbdfad19b7d151a43c3781e/1574107153150-TTU1SYGHCQS9IMEJON03/rot-3.jpg",
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
@@ -84,9 +84,9 @@
         "CREATED_DA": null,
         "FACILITY": "",
         "FACILITY_F": "",
-        "DESCRIPTIO": "Hotel",
-        "DESCRIPT_1": "Near the Portage Canal lift bridge, this 2-star hotel provides basic amenities such as free Wi-Fi and breakfast, an indoor pool, a sauna and a hot tub, and more.  This hotel also has a bar and a restaurant.",
-        "PICTURE_LI": null,
+
+        "DESCRIPTIO": "Near the Portage Canal lift bridge, this 2-star hotel provides basic amenities such as free Wi-Fi and breakfast, an indoor pool, a sauna and a hot tub, and more.  This hotel also has a bar and a restaurant.",
+        "PICTURE_LI": "https://media-cdn.tripadvisor.com/media/photo-s/13/6c/e6/0c/exterior.jpg",
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
@@ -114,9 +114,9 @@
         "CREATED_DA": null,
         "FACILITY": "",
         "FACILITY_F": "",
-        "DESCRIPTIO": "Hotel",
-        "DESCRIPT_1": "Located in Houghton, Quality Inn provides basic amenities such as free Wi-Fi and breakfast, an indoor swimming pool, a hot tub and a sauna, a fitness room, and more.  Pets are welcome for an additional fee.",
-        "PICTURE_LI": null,
+
+        "DESCRIPTIO": "Located in Houghton, Quality Inn provides basic amenities such as free Wi-Fi and breakfast, an indoor swimming pool, a hot tub and a sauna, a fitness room, and more.  Pets are welcome for an additional fee.",
+        "PICTURE_LI": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/169862235.jpg?k=f244b0cee4889af65b60d090cd3bbe5785101a783710b3086592e9a4b7bc6695&o=&hp=1",
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
@@ -144,9 +144,9 @@
         "CREATED_DA": null,
         "FACILITY": "",
         "FACILITY_F": "",
-        "DESCRIPTIO": "Resort",
-        "DESCRIPT_1": "Located in Copper Harbor, this inn provides cabin-like rooms with free Wi-Fi and parking, as well as a restaurant, bar, and a game room.",
-        "PICTURE_LI": null,
+
+        "DESCRIPTIO": "Located in Copper Harbor, this inn provides cabin-like rooms with free Wi-Fi and parking, as well as a restaurant, bar, and a game room.",
+        "PICTURE_LI": "https://www.keweenaw.info/wp-content/uploads/glm-member-db/images/large/is16-1504642077-01359_1505326904.jpeg",
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
@@ -175,9 +175,9 @@
         "CREATED_DA": null,
         "FACILITY": "",
         "FACILITY_F": "",
-        "DESCRIPTIO": "Hotel",
-        "DESCRIPT_1": "Located at the shopping area near Houghton, this 2-star hotel provides amenities such as free Wi-Fi, a hot breakfast buffet, an indoor pool and gym, and a sauna.",
-        "PICTURE_LI": null,
+
+        "DESCRIPTIO": "Located at the shopping area near Houghton, this 2-star hotel provides amenities such as free Wi-Fi, a hot breakfast buffet, an indoor pool and gym, and a sauna.",
+        "PICTURE_LI": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_650,q_auto,w_1000/itemimages/56/23/562321_v1.jpeg",
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
