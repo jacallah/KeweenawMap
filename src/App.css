@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+.locationDescript {
+  max-height: 600px;
+  width: 400px;
+  position: fixed;
+  background: #f7feff;
+  right: 0;
+  border: 6px solid #f7feff;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
