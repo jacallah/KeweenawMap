@@ -19,6 +19,30 @@ code {
   cursor: pointer;
 }
 
+.imgicon {
+  height: 60px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.legend {
+  margin: 1rem;
+  background-color: cyan;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-family: "Courier New", Courier, monospace;
+  float: left;
+}
+
+.legend2 {
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: "Courier New", Courier, monospace;
+  float: left;
+}
+
 .marker-btn img {
   width: 30px;
   height: 30px;

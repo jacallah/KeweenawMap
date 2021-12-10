@@ -9,7 +9,6 @@ import * as beachesDate from "./data/beaches.json";
 import * as bikingDate from "./data/Biking.json";
 import * as lodgingDate from "./data/lodging.json";
 import * as poiDate from "./data/points of interest.json";
-import * as park1Date from "./data/parks";
 import * as skiDate from "./data/ski-snowboard.json";
 import * as waterfallDate from "./data/waterfalls.json";
 import bench from "./bench.jpg";
@@ -21,6 +20,7 @@ import lodging from "./lodging.png";
 import poi from "./exclamation.png";
 import ski from "./ski-snowboard.png";
 import waterfall from "./waterfall.png";
+import legend from "./legend.png";
 import "./App.css";
 import "./index.css";
 
@@ -52,6 +52,16 @@ export default function App() {
   const [show, setShow] = useState(true);
 
 
+  const [showParks, setShowParks] = useState(true);
+  const [showHikes, setShowHikes] = useState(true);
+  const [showBars, setShowBars] = useState(true);
+  const [showBeaches, setShowBeaches] = useState(true);
+  const [showBikes, setShowBikes] = useState(true);
+  const [showLodges, setShowLodges] = useState(true);
+  const [showPois, setShowPois] = useState(true);
+  const [showSkis, setShowSkis] = useState(true);
+  const [showWaterfalls, setShowWaterfalls] = useState(true);
+
   return (
     <EasybaseProvider ebconfig={ebconfig}>
         <Auth>
@@ -71,13 +81,24 @@ export default function App() {
                   {" "}
                   <b>Toggle Legend</b>{" "}
                 </button>
-
-                {show ? <div className="displayImage"></div> : null}
+                {show ? <div>
+                <img className="legend2"  src={legend} alt="CYAP"/>
+                <img className="imgicon" src={bench} alt="CYAP" onClick={() => setShowParks(!showParks)}/>
+                <img className="imgicon" src={hike} alt="CYAP" onClick={() => setShowHikes(!showHikes)}/>
+                <img className="imgicon" src={bar} alt="CYAP" onClick={() => setShowBars(!showBars)}/>
+                <img className="imgicon" src={beach} alt="CYAP" onClick={() => setShowBeaches(!showBeaches)}/>
+                <img className="imgicon" src={biking} alt="CYAP" onClick={() => setShowBikes(!showBikes)}/>
+                <img className="imgicon" src={lodging} alt="CYAP" onClick={() => setShowLodges(!showLodges)}/>
+                <img className="imgicon" src={poi} alt="CYAP" onClick={() => setShowPois(!showPois)}/>
+                <img className="imgicon" src={ski} alt="CYAP" onClick={() => setShowSkis(!showSkis)}/>
+                <img className="imgicon" src={waterfall} alt="CYAP" onClick={() => setShowWaterfalls(!showWaterfalls)}/>
+                </div> : null}
               </div>
             </div>
 
             {parkDate.features.map((park) => (
-              <Marker
+              <div>
+              {showParks ? <Marker
                 key={park.properties.PARK_ID}
                 latitude={park.geometry.coordinates[1]}
                 longitude={park.geometry.coordinates[0]}
@@ -91,10 +112,12 @@ export default function App() {
                 >
                   <img src={bench} alt="CYAP" />
                 </button>
-              </Marker>
+              </Marker>  : null}
+              </div>
             ))}
             {hikeDate.features.map((park) => (
-              <Marker
+            <div>
+              {showHikes ? <Marker
                 key={park.properties.PARK_ID}
                 latitude={park.geometry.coordinates[1]}
                 longitude={park.geometry.coordinates[0]}
@@ -108,11 +131,13 @@ export default function App() {
                 >
                   <img src={hike} alt="CYAP" />
                 </button>
-              </Marker>
+              </Marker>  : null}
+              </div>
             ))}
 
             {barDate.features.map((park) => (
-              <Marker
+            <div>
+              {showBars ? <Marker
                 key={park.properties.PARK_ID}
                 latitude={park.geometry.coordinates[1]}
                 longitude={park.geometry.coordinates[0]}
@@ -126,11 +151,13 @@ export default function App() {
                 >
                   <img src={bar} alt="CYAP" />
                 </button>
-              </Marker>
+              </Marker>  : null}
+              </div>
             ))}
 
             {beachesDate.features.map((park) => (
-              <Marker
+            <div>
+              {showBeaches ? <Marker
                 key={park.properties.PARK_ID}
                 latitude={park.geometry.coordinates[1]}
                 longitude={park.geometry.coordinates[0]}
@@ -144,11 +171,13 @@ export default function App() {
                 >
                   <img src={beach} alt="CYAP" />
                 </button>
-              </Marker>
+              </Marker>  : null}
+              </div>
             ))}
 
             {bikingDate.features.map((park) => (
-              <Marker
+            <div>
+              {showBikes ? <Marker
                 key={park.properties.PARK_ID}
                 latitude={park.geometry.coordinates[1]}
                 longitude={park.geometry.coordinates[0]}
@@ -162,11 +191,13 @@ export default function App() {
                 >
                   <img src={biking} alt="CYAP" />
                 </button>
-              </Marker>
+              </Marker>  : null}
+              </div>
             ))}
 
             {lodgingDate.features.map((park) => (
-              <Marker
+            <div>
+              {showLodges ? <Marker
                 key={park.properties.PARK_ID}
                 latitude={park.geometry.coordinates[1]}
                 longitude={park.geometry.coordinates[0]}
@@ -180,11 +211,13 @@ export default function App() {
                 >
                   <img src={lodging} alt="CYAP" />
                 </button>
-              </Marker>
+             </Marker>  : null}
+              </div>
             ))}
 
             {poiDate.features.map((park) => (
-              <Marker
+            <div>
+              {showPois ? <Marker
                 key={park.properties.PARK_ID}
                 latitude={park.geometry.coordinates[1]}
                 longitude={park.geometry.coordinates[0]}
@@ -198,47 +231,13 @@ export default function App() {
                 >
                   <img src={poi} alt="CYAP" />
                 </button>
-              </Marker>
-            ))}
-
-            {poiDate.features.map((park) => (
-              <Marker
-                key={park.properties.PARK_ID}
-                latitude={park.geometry.coordinates[1]}
-                longitude={park.geometry.coordinates[0]}
-              >
-                <button
-                  className="marker-btn"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setSelectedPark(park);
-                  }}
-                >
-                  <img src={poi} alt="CYAP" />
-                </button>
-              </Marker>
-            ))}
-
-            {park1Date.features.map((park) => (
-              <Marker
-                key={park.properties.PARK_ID}
-                latitude={park.geometry.coordinates[1]}
-                longitude={park.geometry.coordinates[0]}
-              >
-                <button
-                  className="marker-btn"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setSelectedPark(park);
-                  }}
-                >
-                  <img src={bench} alt="CYAP" />
-                </button>
-              </Marker>
+              </Marker>  : null}
+              </div>
             ))}
 
             {skiDate.features.map((park) => (
-              <Marker
+            <div>
+              {showSkis ? <Marker
                 key={park.properties.PARK_ID}
                 latitude={park.geometry.coordinates[1]}
                 longitude={park.geometry.coordinates[0]}
@@ -252,11 +251,13 @@ export default function App() {
                 >
                   <img src={ski} alt="CYAP" />
                 </button>
-              </Marker>
+              </Marker>  : null}
+              </div>
             ))}
 
             {waterfallDate.features.map((park) => (
-              <Marker
+            <div>
+              {showWaterfalls ? <Marker
                 key={park.properties.PARK_ID}
                 latitude={park.geometry.coordinates[1]}
                 longitude={park.geometry.coordinates[0]}
@@ -270,7 +271,8 @@ export default function App() {
                 >
                   <img src={waterfall} alt="CYAP" />
                 </button>
-              </Marker>
+              </Marker>  : null}
+              </div>
             ))}
 
             {selectedPark ? (
