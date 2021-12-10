@@ -64,256 +64,256 @@ export default function App() {
 
   return (
     <EasybaseProvider ebconfig={ebconfig}>
-        <Auth>
-    <div className="container">
-      
-        <div>
-          <ReactMapGL
-            {...viewport}
-            mapboxApiAccessToken="pk.eyJ1IjoicGluZ3VjYXNleSIsImEiOiJja3Y0NWN3YTE4bXE2MnVvOG11MjZtNnBiIn0.A2cMs0IY0S8Gruki4vo6cQ"
-            onViewportChange={(viewport) => {
-              setViewport(viewport);
-            }}
-          >
-            <div className="menu">
-              <div className="LegendContainer">
-                <button className="legend" onClick={() => setShow(!show)}>
-                  {" "}
-                  <b>Toggle Legend</b>{" "}
-                </button>
-                {show ? <div>
-                <img className="legend2"  src={legend} alt="CYAP"/>
-                <img className="imgicon" src={bench} alt="CYAP" onClick={() => setShowParks(!showParks)}/>
-                <img className="imgicon" src={hike} alt="CYAP" onClick={() => setShowHikes(!showHikes)}/>
-                <img className="imgicon" src={bar} alt="CYAP" onClick={() => setShowBars(!showBars)}/>
-                <img className="imgicon" src={beach} alt="CYAP" onClick={() => setShowBeaches(!showBeaches)}/>
-                <img className="imgicon" src={biking} alt="CYAP" onClick={() => setShowBikes(!showBikes)}/>
-                <img className="imgicon" src={lodging} alt="CYAP" onClick={() => setShowLodges(!showLodges)}/>
-                <img className="imgicon" src={poi} alt="CYAP" onClick={() => setShowPois(!showPois)}/>
-                <img className="imgicon" src={ski} alt="CYAP" onClick={() => setShowSkis(!showSkis)}/>
-                <img className="imgicon" src={waterfall} alt="CYAP" onClick={() => setShowWaterfalls(!showWaterfalls)}/>
-                </div> : null}
-              </div>
-            </div>
+      <Auth>
+        <div className="container">
 
-            {parkDate.features.map((park) => (
-              <div>
-              {showParks ? <Marker
-                key={park.properties.PARK_ID}
-                latitude={park.geometry.coordinates[1]}
-                longitude={park.geometry.coordinates[0]}
-              >
-                <button
-                  className="marker-btn"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setSelectedPark(park);
-                  }}
-                >
-                  <img src={bench} alt="CYAP" />
-                </button>
-              </Marker>  : null}
-              </div>
-            ))}
-            {hikeDate.features.map((park) => (
-            <div>
-              {showHikes ? <Marker
-                key={park.properties.PARK_ID}
-                latitude={park.geometry.coordinates[1]}
-                longitude={park.geometry.coordinates[0]}
-              >
-                <button
-                  className="marker-btn"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setSelectedPark(park);
-                  }}
-                >
-                  <img src={hike} alt="CYAP" />
-                </button>
-              </Marker>  : null}
-              </div>
-            ))}
-
-            {barDate.features.map((park) => (
-            <div>
-              {showBars ? <Marker
-                key={park.properties.PARK_ID}
-                latitude={park.geometry.coordinates[1]}
-                longitude={park.geometry.coordinates[0]}
-              >
-                <button
-                  className="marker-btn"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setSelectedPark(park);
-                  }}
-                >
-                  <img src={bar} alt="CYAP" />
-                </button>
-              </Marker>  : null}
-              </div>
-            ))}
-
-            {beachesDate.features.map((park) => (
-            <div>
-              {showBeaches ? <Marker
-                key={park.properties.PARK_ID}
-                latitude={park.geometry.coordinates[1]}
-                longitude={park.geometry.coordinates[0]}
-              >
-                <button
-                  className="marker-btn"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setSelectedPark(park);
-                  }}
-                >
-                  <img src={beach} alt="CYAP" />
-                </button>
-              </Marker>  : null}
-              </div>
-            ))}
-
-            {bikingDate.features.map((park) => (
-            <div>
-              {showBikes ? <Marker
-                key={park.properties.PARK_ID}
-                latitude={park.geometry.coordinates[1]}
-                longitude={park.geometry.coordinates[0]}
-              >
-                <button
-                  className="marker-btn"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setSelectedPark(park);
-                  }}
-                >
-                  <img src={biking} alt="CYAP" />
-                </button>
-              </Marker>  : null}
-              </div>
-            ))}
-
-            {lodgingDate.features.map((park) => (
-            <div>
-              {showLodges ? <Marker
-                key={park.properties.PARK_ID}
-                latitude={park.geometry.coordinates[1]}
-                longitude={park.geometry.coordinates[0]}
-              >
-                <button
-                  className="marker-btn"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setSelectedPark(park);
-                  }}
-                >
-                  <img src={lodging} alt="CYAP" />
-                </button>
-             </Marker>  : null}
-              </div>
-            ))}
-
-            {poiDate.features.map((park) => (
-            <div>
-              {showPois ? <Marker
-                key={park.properties.PARK_ID}
-                latitude={park.geometry.coordinates[1]}
-                longitude={park.geometry.coordinates[0]}
-              >
-                <button
-                  className="marker-btn"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setSelectedPark(park);
-                  }}
-                >
-                  <img src={poi} alt="CYAP" />
-                </button>
-              </Marker>  : null}
-              </div>
-            ))}
-
-            {skiDate.features.map((park) => (
-            <div>
-              {showSkis ? <Marker
-                key={park.properties.PARK_ID}
-                latitude={park.geometry.coordinates[1]}
-                longitude={park.geometry.coordinates[0]}
-              >
-                <button
-                  className="marker-btn"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setSelectedPark(park);
-                  }}
-                >
-                  <img src={ski} alt="CYAP" />
-                </button>
-              </Marker>  : null}
-              </div>
-            ))}
-
-            {waterfallDate.features.map((park) => (
-            <div>
-              {showWaterfalls ? <Marker
-                key={park.properties.PARK_ID}
-                latitude={park.geometry.coordinates[1]}
-                longitude={park.geometry.coordinates[0]}
-              >
-                <button
-                  className="marker-btn"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setSelectedPark(park);
-                  }}
-                >
-                  <img src={waterfall} alt="CYAP" />
-                </button>
-              </Marker>  : null}
-              </div>
-            ))}
-
-            {selectedPark ? (
-              <Popup
-                class="pop"
-                latitude={selectedPark.geometry.coordinates[1]}
-                longitude={selectedPark.geometry.coordinates[0]}
-                closeOnClick={true}
-                onClose={() => {
-                  setSelectedPark(null);
-                }}
-              >
-                <div class="locationDescript">
-                  <h2>{selectedPark.properties.NAME}</h2>
-                  <p align={"justify"}>{selectedPark.properties.DESCRIPTIO}</p>
-                  <p>
-                    <img
-                      src={selectedPark.properties.PICTURE_LI}
-                      title={selectedPark.properties.NAME}
-                      alt={selectedPark.properties.NAME}
-                      max-height={300}
-                      width={400}
-                    ></img>
-                  </p>
-                  <p>{selectedPark.properties.ADDRESS}</p>
-                  <a
-                    href={
-                      "https://google.com/maps/dir//" +
-                      selectedPark.properties.ADDRESS
-                    }
-                  >
-                    Directions
-                  </a>
+          <div>
+            <ReactMapGL
+              {...viewport}
+              mapboxApiAccessToken="pk.eyJ1IjoicGluZ3VjYXNleSIsImEiOiJja3Y0NWN3YTE4bXE2MnVvOG11MjZtNnBiIn0.A2cMs0IY0S8Gruki4vo6cQ"
+              onViewportChange={(viewport) => {
+                setViewport(viewport);
+              }}
+            >
+              <div className="menu">
+                <div className="LegendContainer">
+                  <button className="legend" onClick={() => setShow(!show)}>
+                    {" "}
+                    <b>Toggle Legend</b>{" "}
+                  </button>
+                  {show ? <div>
+                    <img className="legend2" src={legend} alt="CYAP" />
+                    <img className="imgicon" src={bench} alt="CYAP" onClick={() => setShowParks(!showParks)} />
+                    <img className="imgicon" src={hike} alt="CYAP" onClick={() => setShowHikes(!showHikes)} />
+                    <img className="imgicon" src={bar} alt="CYAP" onClick={() => setShowBars(!showBars)} />
+                    <img className="imgicon" src={beach} alt="CYAP" onClick={() => setShowBeaches(!showBeaches)} />
+                    <img className="imgicon" src={biking} alt="CYAP" onClick={() => setShowBikes(!showBikes)} />
+                    <img className="imgicon" src={lodging} alt="CYAP" onClick={() => setShowLodges(!showLodges)} />
+                    <img className="imgicon" src={poi} alt="CYAP" onClick={() => setShowPois(!showPois)} />
+                    <img className="imgicon" src={ski} alt="CYAP" onClick={() => setShowSkis(!showSkis)} />
+                    <img className="imgicon" src={waterfall} alt="CYAP" onClick={() => setShowWaterfalls(!showWaterfalls)} />
+                  </div> : null}
                 </div>
-              </Popup>
-            ) : null}
-          </ReactMapGL>
+              </div>
+
+              {parkDate.features.map((park) => (
+                <div>
+                  {showParks ? <Marker
+                    key={park.properties.PARK_ID}
+                    latitude={park.geometry.coordinates[1]}
+                    longitude={park.geometry.coordinates[0]}
+                  >
+                    <button
+                      className="marker-btn"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setSelectedPark(park);
+                      }}
+                    >
+                      <img src={bench} alt="CYAP" />
+                    </button>
+                  </Marker> : null}
+                </div>
+              ))}
+              {hikeDate.features.map((park) => (
+                <div>
+                  {showHikes ? <Marker
+                    key={park.properties.PARK_ID}
+                    latitude={park.geometry.coordinates[1]}
+                    longitude={park.geometry.coordinates[0]}
+                  >
+                    <button
+                      className="marker-btn"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setSelectedPark(park);
+                      }}
+                    >
+                      <img src={hike} alt="CYAP" />
+                    </button>
+                  </Marker> : null}
+                </div>
+              ))}
+
+              {barDate.features.map((park) => (
+                <div>
+                  {showBars ? <Marker
+                    key={park.properties.PARK_ID}
+                    latitude={park.geometry.coordinates[1]}
+                    longitude={park.geometry.coordinates[0]}
+                  >
+                    <button
+                      className="marker-btn"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setSelectedPark(park);
+                      }}
+                    >
+                      <img src={bar} alt="CYAP" />
+                    </button>
+                  </Marker> : null}
+                </div>
+              ))}
+
+              {beachesDate.features.map((park) => (
+                <div>
+                  {showBeaches ? <Marker
+                    key={park.properties.PARK_ID}
+                    latitude={park.geometry.coordinates[1]}
+                    longitude={park.geometry.coordinates[0]}
+                  >
+                    <button
+                      className="marker-btn"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setSelectedPark(park);
+                      }}
+                    >
+                      <img src={beach} alt="CYAP" />
+                    </button>
+                  </Marker> : null}
+                </div>
+              ))}
+
+              {bikingDate.features.map((park) => (
+                <div>
+                  {showBikes ? <Marker
+                    key={park.properties.PARK_ID}
+                    latitude={park.geometry.coordinates[1]}
+                    longitude={park.geometry.coordinates[0]}
+                  >
+                    <button
+                      className="marker-btn"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setSelectedPark(park);
+                      }}
+                    >
+                      <img src={biking} alt="CYAP" />
+                    </button>
+                  </Marker> : null}
+                </div>
+              ))}
+
+              {lodgingDate.features.map((park) => (
+                <div>
+                  {showLodges ? <Marker
+                    key={park.properties.PARK_ID}
+                    latitude={park.geometry.coordinates[1]}
+                    longitude={park.geometry.coordinates[0]}
+                  >
+                    <button
+                      className="marker-btn"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setSelectedPark(park);
+                      }}
+                    >
+                      <img src={lodging} alt="CYAP" />
+                    </button>
+                  </Marker> : null}
+                </div>
+              ))}
+
+              {poiDate.features.map((park) => (
+                <div>
+                  {showPois ? <Marker
+                    key={park.properties.PARK_ID}
+                    latitude={park.geometry.coordinates[1]}
+                    longitude={park.geometry.coordinates[0]}
+                  >
+                    <button
+                      className="marker-btn"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setSelectedPark(park);
+                      }}
+                    >
+                      <img src={poi} alt="CYAP" />
+                    </button>
+                  </Marker> : null}
+                </div>
+              ))}
+
+              {skiDate.features.map((park) => (
+                <div>
+                  {showSkis ? <Marker
+                    key={park.properties.PARK_ID}
+                    latitude={park.geometry.coordinates[1]}
+                    longitude={park.geometry.coordinates[0]}
+                  >
+                    <button
+                      className="marker-btn"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setSelectedPark(park);
+                      }}
+                    >
+                      <img src={ski} alt="CYAP" />
+                    </button>
+                  </Marker> : null}
+                </div>
+              ))}
+
+              {waterfallDate.features.map((park) => (
+                <div>
+                  {showWaterfalls ? <Marker
+                    key={park.properties.PARK_ID}
+                    latitude={park.geometry.coordinates[1]}
+                    longitude={park.geometry.coordinates[0]}
+                  >
+                    <button
+                      className="marker-btn"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setSelectedPark(park);
+                      }}
+                    >
+                      <img src={waterfall} alt="CYAP" />
+                    </button>
+                  </Marker> : null}
+                </div>
+              ))}
+
+              {selectedPark ? (
+                <Popup
+                  class="pop"
+                  latitude={selectedPark.geometry.coordinates[1]}
+                  longitude={selectedPark.geometry.coordinates[0]}
+                  closeOnClick={true}
+                  onClose={() => {
+                    setSelectedPark(null);
+                  }}
+                >
+                  <div class="locationDescript">
+                    <h2>{selectedPark.properties.NAME}</h2>
+                    <p align={"justify"}>{selectedPark.properties.DESCRIPTIO}</p>
+                    <p>
+                      <img
+                        src={selectedPark.properties.PICTURE_LI}
+                        title={selectedPark.properties.NAME}
+                        alt={selectedPark.properties.NAME}
+                        max-height={300}
+                        width={400}
+                      ></img>
+                    </p>
+                    <p>{selectedPark.properties.ADDRESS}</p>
+                    <a
+                      href={
+                        "https://google.com/maps/dir//" +
+                        selectedPark.properties.ADDRESS
+                      }
+                    >
+                      Directions
+                    </a>
+                  </div>
+                </Popup>
+              ) : null}
+            </ReactMapGL>
+          </div>
+
         </div>
-        
-    </div>
-    </Auth>
+      </Auth>
     </EasybaseProvider>
   );
 }
