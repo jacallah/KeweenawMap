@@ -1,6 +1,6 @@
-import React, { useState, useEffect, Component } from "react";
+import React, { useState, useEffect } from "react";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
-import { EasybaseProvider } from "easybase-react";
+import { EasybaseProvider, Auth } from "easybase-react";
 import ebconfig from "./ebconfig";
 import * as parkDate from "./data/parks.json";
 import * as hikeDate from "./data/hiking.json";
@@ -23,6 +23,7 @@ import ski from "./ski-snowboard.png";
 import waterfall from "./waterfall.png";
 import "./App.css";
 import "./index.css";
+
 
 export default function App() {
   const [viewport, setViewport] = useState({
@@ -50,9 +51,12 @@ export default function App() {
 
   const [show, setShow] = useState(true);
 
+
   return (
+    <EasybaseProvider ebconfig={ebconfig}>
+        <Auth>
     <div className="container">
-      <EasybaseProvider ebconfig={ebconfig}>
+      
         <div>
           <ReactMapGL
             {...viewport}
@@ -305,7 +309,9 @@ export default function App() {
             ) : null}
           </ReactMapGL>
         </div>
-      </EasybaseProvider>
+        
     </div>
+    </Auth>
+    </EasybaseProvider>
   );
 }
