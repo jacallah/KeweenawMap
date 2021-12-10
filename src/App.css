@@ -45,6 +45,24 @@
   top: 200px;
 }
 
+.displayImage {
+  margin-left: 10rem;
+  width: 300px;
+  height: 375px;
+  background-image: url("./legend.png");
+  transition-delay: 2s;
+}
+
+.legend {
+  margin: 1rem;
+  background-color: cyan;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-family: "Courier New", Courier, monospace;
+  float: left;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

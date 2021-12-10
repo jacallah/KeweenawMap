@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Component } from "react";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import { EasybaseProvider } from "easybase-react";
 import ebconfig from "./ebconfig";
@@ -22,6 +22,7 @@ import poi from "./exclamation.png";
 import ski from "./ski-snowboard.png";
 import waterfall from "./waterfall.png";
 import "./App.css";
+import "./index.css";
 
 export default function App() {
   const [viewport, setViewport] = useState({
@@ -47,6 +48,8 @@ export default function App() {
     };
   }, []);
 
+  const [show, setShow] = useState(true);
+
   return (
     <div className="container">
       <EasybaseProvider ebconfig={ebconfig}>
@@ -58,7 +61,17 @@ export default function App() {
               setViewport(viewport);
             }}
           >
-            <div className="menu">This is a test</div>
+            <div className="menu">
+              <div className="LegendContainer">
+                <button className="legend" onClick={() => setShow(!show)}>
+                  {" "}
+                  <b>Toggle Legend</b>{" "}
+                </button>
+
+                {show ? <div className="displayImage"></div> : null}
+              </div>
+            </div>
+
             {parkDate.features.map((park) => (
               <Marker
                 key={park.properties.PARK_ID}
